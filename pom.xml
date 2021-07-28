@@ -30,7 +30,7 @@
     <properties>
         <marmotta.home>${java.io.tmpdir}${file.separator}test</marmotta.home>
         <marmotta.context>/</marmotta.context>
-        <marmotta.port>8080</marmotta.port>
+        <marmotta.port>8081</marmotta.port>
         <marmotta.backend>kiwi</marmotta.backend>
 
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -368,7 +368,7 @@
         </profile>
 
         <profile>
-            <id>hazelcast</id>
+		<id>hazelcast</id>
             <activation>
                 <property>
                     <name>marmotta.caching</name>
