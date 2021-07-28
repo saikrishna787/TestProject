@@ -56,7 +56,7 @@
     </properties>
 
     <build>
-        <finalName>marmotta</finalName>
+        <finalName>TestProject</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
